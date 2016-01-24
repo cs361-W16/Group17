@@ -35,10 +35,6 @@ public class Deck {
         cards.add(new_card);
     }
 
-    public void removeCard(Card remove_card) {
-        cards.remove(remove_card);
-    }
-
     public Card getTopCard() {
         return cards.get(cards.size()-1);
     }
@@ -53,8 +49,6 @@ public class Deck {
 
     public void removeCard(Card r){
         cards.remove(r);
-
     }
 
-    public Card getTopCard(){ return cards.get(cards.size() - 1); }
 }
