@@ -46,6 +46,5 @@ public class Game {
         Card moved=Columns[from].getTopCard();
         Columns[from].removeCard(moved);
         Columns[to].addCard(moved);
-
     }
 }
